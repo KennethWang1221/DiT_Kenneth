@@ -323,6 +323,6 @@ if __name__ == "__main__":
     parser.add_argument("--ckpt-every", type=int, default=50_000)
     parser.add_argument("--single-gpu", action="store_true", default=True, help="Train on single GPU without DDP (for debugging/educational purposes)")
     parser.add_argument("--mixed-precision", action="store_true", default=True, help="Enable mixed precision training (FP16) to reduce memory usage")
-    parser.add_argument("--gradient-accumulation-steps", type=int, default=2, help="Number of gradient accumulation steps (effective batch size = global_batch_size)")
+    parser.add_argument("--gradient-accumulation-steps", type=int, default=1, help="Number of gradient accumulation steps (effective batch size = global_batch_size)")
     args = parser.parse_args()
     main(args)
