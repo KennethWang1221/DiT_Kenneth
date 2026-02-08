@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model weights and results
+pretrained_models/
+results/
+checkpoints/
+*.pt
+*.pth
+
+# Datasets
+tiny-imagenet-200/
+tiny-imagenet-200.zip
+mini-imagenet/
+imagenet/
+*.zip
+*.tar
+*.tar.gz
+
+# Environment files
+.envrc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
